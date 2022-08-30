@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+      }
+      .container{
+        position: relative;
+        display: inline-block;
+      }
+      .discount{
+        position: absolute;
+        top: 5px;
+        right: 0px;
+        background-color: black;
+        color:white;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-size: 12px;
+        font-family: Arial;
+      }
+      .button-container{
+        position: absolute;
+        display: flex;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        background-color: rgba(255, 255, 255, 0.542); 
+        height: 80px;
+        align-items: center;
+        justify-content: center;
+      }
+      button{
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 9px;
+        padding-right: 9px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="images.jfif">
+      <div class="discount">
+        20% OFF
+      </div>
+      <div class="button-container">
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </body>
+</html>

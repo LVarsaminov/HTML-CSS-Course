@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      p{
+        display: inline-block;
+        font-family: Arial;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        margin-left: 8px;
+        font-weight: 500;
+      }
+      div{
+        width: 270px;
+      }
+      .notifications-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 270px;
+        border-radius: 5px ;
+        padding-top: 10px;
+        padding-right: 10px;
+        border-color: grey;
+        border-style: solid;
+        border-width: 1px;
+      }
+      .home{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .notifications{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .messages{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .notifications-number{
+        background-color: rgb(95, 138, 239);
+        color: white;
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border-radius: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="notifications-container">
+      <div class="home">
+        <p>
+          Home
+        </p>
+        <p class="notifications-number">
+          14
+        </p>
+      </div>
+      <div class="notifications">
+        <p>
+          Notifications
+        </p>
+        <p class="notifications-number">
+          3
+        </p>
+      </div>
+      <div class="messages">
+        <p>
+          Messages
+        </p>
+        <p class="notifications-number">
+          5
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

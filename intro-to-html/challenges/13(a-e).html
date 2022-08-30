@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      p{
+        font-family: Arial;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .all-inboxes-containter{
+        display: grid;
+        grid-template-columns: 400px;
+        row-gap: 17px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: -2px -1px 9px -1px #000000;
+        width: 400px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+      }
+      .all-inboxes{
+        margin-bottom: 15px;
+        color: grey;
+        font-size: 14px;
+      }
+      .name,
+      .description{
+        font-weight: bold;
+        margin-bottom: 3px;
+      }
+      .inbox{
+        display: grid;
+        grid-template-columns: 50px 350px;
+        align-items: center;
+        column-gap: 4px;
+      }
+      .time{
+        display: inline-block;
+      }
+      img{
+        height: 45px;
+        border-radius: 22.5px;
+      }
+      .flex-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 350px;
+      }
+      .inbox-image{
+        display: inline-block;
+      }
+      .time{
+        color: grey;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="all-inboxes-containter">
+      <div class="all-inboxes">
+        <p>
+          ALL INBOXES
+        </p>
+      </div>
+      <div class="inbox">
+        <div class="inbox-image">
+          <img src="download.jpg">
+        </div>
+        <div>    
+          <div class="flex-div">
+            <p class="name">
+              Chewy Promotions
+            </p>
+            <p class="time">
+              4:58 PM
+            </p>
+          </div>
+            <p class="description">
+              Biggest sales of the year!
+            </p>
+            <p class="message">
+              Hey there! We're writing to tell you about our...
+            </p>
+        </div>
+      </div>
+
+      <div class="inbox">
+        <div class="inbox-image">
+          <img src="priqtelq.jpg">
+        </div>
+        <div>    
+          <div class="flex-div">
+            <p class="name">
+              Best Buy
+            </p>
+            <p class="time">
+              12:32 PM
+            </p>
+          </div>
+            <p class="description">
+              Your Best Buy eReceipt
+            </p>
+            <p class="message">
+             Thank you for shopping at Best Buy, here is...
+            </p>
+        </div>
+      </div>
+
+      <div class="inbox">
+        <div class="inbox-image">
+          <img src="naisimpatichnoto-kuche-sveta-umria-maka-755.jpg">
+        </div>
+        <div>    
+          <div class="flex-div">
+            <p class="name">
+              Netflix
+            </p>
+            <p class="time">
+              9:00 AM
+            </p>
+          </div>
+            <p class="description">
+              Here's what's coming soon to Netflix
+            </p>
+            <p class="message">
+              Bradn new movies and shows, old favorites...
+            </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
