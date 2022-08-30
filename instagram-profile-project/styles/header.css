@@ -1,0 +1,83 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 255px;
+  padding-right:255px;
+  height: 50px;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid rgba(180, 174, 174, 0.681);
+}
+.instagram-logo{
+  height: 45px;
+  width: 100px;
+}
+.middle-section{
+  display: flex;
+}
+.search-bar{ 
+  border: none;
+  border-radius: 8px;
+  padding: 10px 23px;
+  background-color: rgba(222, 216, 216, 0.345);
+  color: black;
+  width: 250px;
+}
+.search-bar::placeholder{
+  color: rgb(171, 164, 164) ;
+  font-size: 16px;
+}
+.search-bar:focus::placeholder{
+  color: transparent;
+  border: none;
+}
+.search-bar:focus{
+  outline: none;
+}
+
+.right-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 5px;
+}
+
+.right-section button{
+  background-color: transparent;
+  border: none;
+}
+
+.home-icon{
+  width: 25px;
+  height: 25px;
+}
+
+.dms-icon{
+  width: 25px;
+  height: 25px;
+}
+
+.add-icon{
+  width: 40px;
+  height: 45px;
+}
+
+.compas-icon{
+  width: 25px;
+  height: 25px;
+}
+
+.heart-icon{
+  width: 25px;
+  height: 25px;
+}
+
+.pfp-icon{
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+}
+
+
+

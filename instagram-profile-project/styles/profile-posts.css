@@ -1,0 +1,32 @@
+.posts-container{
+  width: 900px;
+  border-top: 1px solid rgb(175, 171, 171);
+  margin: 20px 300px;
+}
+
+.posts-types-container{
+ display: flex;
+ align-items: center;
+ justify-content: center; 
+ column-gap: 70px;
+
+ font-size: 14px;
+ color: rgb(37, 46, 78) ;
+ margin-bottom: 20px;
+}
+.posts-types-container button{
+background-color: white;
+border:none;
+height: 50px;
+}
+.posts-types-container button:focus{
+  border-top: 1px solid rgb(37, 46, 78);
+}
+.posts-images-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.post-image{
+  width: 280px;
+  height: 300px;
+}

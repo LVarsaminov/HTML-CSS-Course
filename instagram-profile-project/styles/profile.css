@@ -1,0 +1,56 @@
+.profile-container{
+  width: 800px;
+  margin:40px 350px;
+  display: grid;
+  grid-template-columns: 150px 200px;
+  height: 150px;
+  column-gap: 100px;
+}
+.picture{
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
+.name-container{
+  font-size: 20px;
+}
+.edit-profile-button{
+  border: 1px solid rgb(171, 165, 165);
+  padding: 6px 8px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.settings-icon{
+  width: 30px;
+  border-radius: 50px;
+}
+
+.settings-button{
+  padding: 0px;
+  border-radius: 50px;
+  border: none;
+  background-color: transparent;
+}
+
+.profile-name-settings-container{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-stats-container{
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.nickname-container{
+  width: 300px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
